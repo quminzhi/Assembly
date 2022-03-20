@@ -60,10 +60,32 @@ int arr_index_u(int* arr, unsigned int i) {
 
 /* control flow */
 int if_then(int param) {
-    if (param > 107) {
-        param += 10;
+    if (param > 5) {
+        param |= 1;
+    } else {
+        param ^= 3;
     }
-    return param - 5;
+
+    return param;
+}
+
+int while_loop(int n) {
+    int sum = 0, i = 1;
+    while (i < n) {
+        sum += i;
+        i++;
+    }
+
+    return sum;
+}
+
+int for_loop(int n) {
+    int sum = 0;
+    for (int i = 0; i < n; i++) {
+        sum += i;
+    }
+
+    return sum;
 }
 
 int main(int argc, char* argv[]) {
