@@ -28,6 +28,17 @@
     "**/.vscode/**"
   ],
   "cSpell.ignoreWords": [
-    "plusii"
+    "asmi",
+    "asmii",
+    "btrl",
+    "btsl",
+    "lodsb",
+    "movsl",
+    "plusii",
+    "plusiv",
+    "sete",
+    "stosb",
+    "testb",
+    "xorl"
   ]
 }
